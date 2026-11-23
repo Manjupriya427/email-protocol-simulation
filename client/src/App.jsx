@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:5000/api";
+const API = "https://email-protocol-simulation.onrender.com";
 const states = [
   ["q0", "Disconnected", "CONNECT", "q1"],
   ["q1", "Connected", "EHLO / HELO", "q2"],
